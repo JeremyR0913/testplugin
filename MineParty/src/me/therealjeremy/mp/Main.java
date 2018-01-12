@@ -68,8 +68,11 @@ public class Main extends JavaPlugin {
 		materials2.add(Material.ENCHANTMENT_TABLE);
 		materials2.add(Material.ANVIL);
 		materials2.add(Material.BEACON);
+		List<Materials> materials3 = new ArrayList<Material>();
+		materials3.add(Material.DIAMOND_BLOCK);
 		rounds.add(materials1);
 		rounds.add(materials2);
+		rounds.add(materials3);
 		this.getServer().getScheduler().runTaskTimer(this, new Runnable() {
 			
 			private long lastParty;
