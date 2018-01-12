@@ -1,0 +1,8 @@
+name: MinePartyByJeremy
+version: 1.0.0
+depend: [WorldEdit]
+author: TheRealJeremy
+main: me.therealjeremy.mp.Main
+commands:
+  addpoints:
+  setmineparty:
